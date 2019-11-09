@@ -13,6 +13,10 @@ str1 = 'Hello,'
 str2 = 'Beautiful LuLu'
 s = str1 + str2
 print('字符串的拼接=', s)
+# 如果在原来的字符串上附加可以采用 += 比如
+str3 = 'hello'
+str3 += ' LuoXin'
+print(str3)
 ss = '%s %s' % (str1, str2)
 print('通过%s设置占位符来进行格式化,有几个%s就需要在后面写上多少个变量:%s', ss)
 
