@@ -23,3 +23,9 @@ print('按照符号切分成list，list是一种类型，后面会讲', s.split(
 print('去除字符串前后空格', s.strip())
 print('判断字符串是不是以什么字符结束(如果是开始用startswith)', s.endswith('xls'))
 print('字符串的替换', s.replace('&', '@'))
+
+# 判断一个字符串是不是在另外一个字符串中可以使用in，
+# 返回一个bool类型，True代表在， False代表不在样例如下
+s1 = 'Hello, LuLU'
+is_in = 'Lu' in s1
+print(is_in)
