@@ -14,6 +14,12 @@
 # 但是你在定义这个函数的时候要清楚这个a和b应该是什么类型，或者说可以是什么类型
 # 这里有返回值返回两者的和，返回可以用return来提出
 def sum(a, b):
+	"""
+	this is a add operation
+	:param a:
+	:param b:
+	:return:
+	"""
 	return a + b
 total = sum(1, 2)
 print('%s + %s = %s' % (1, 2, total))
@@ -22,7 +28,7 @@ add = sum
 total = add(1, 2)
 print(total)
 
-# 我们来看一个不返回任何东西的函数, 比如和一个人打招呼
+# 我们来看一个不返回任何东西的函数, 比如和一个人打招呼.函数没有return，则返回none
 def greeting(name):
 	print('hello ' + name)
 print('下面这个是一个不返回任何值得函数')

@@ -17,7 +17,7 @@ print(type(d), d)
 # 希望把整型转化为浮点型可以使用float(int)
 # 希望把浮点型转化为整型可以使用int(float)
 a1 = float(10)
-a2 = int(1.3)
+a2 = int(1.9)
 print(type(a1), a1)
 print(type(a2), a2)
 # 整型的加,减,乘,除,取整,取余,按位与

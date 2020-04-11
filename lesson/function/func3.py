@@ -17,14 +17,14 @@ output_contact("luoxin199203@163.com", "15625587502", "1003109590")
 # 表示，没有上限，但是要注意的是*args和不可变参数可以共存，但是必须
 # 写在不可变参数的最后，看下面的栗子
 def mix_contact(email, *args):
-	print("这是我的邮箱%s，但是除此之外我还有两种联系方式:\n" % email)
+	print("这是我的邮箱%s，+:\n" % email)
 	print("第一种：%s" % args[0])
 	print("第一种：%s" % args[1])
 mix_contact("luoxin199203@163.com", "15625587502", "1003109590")
 
 # 下一个更重要的可变参数叫做*kwargs,它代表一个dict，那么他的使用场景
 # 是什么呢？想象一下现在简历里要写姓名，学校，技能啥的，而且还要技能
-# 的熟悉度，我去，我tm会的东西多了去了，咋办没关系，咱有*kwags，
+# 的熟悉度，我去，我tm会的东西多了去了，咋办没关系，咱有**kwags，
 # 看下下面的栗子
 def output_info(**kwargs):
 	print("我叫%s\n" % kwargs.get("name", ""))
