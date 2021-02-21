@@ -10,22 +10,6 @@
 #     第二步，判断别人出的牌是几张，除了炸弹特殊外，理论上别人出几张你也要出几张
 #     第三步，根据别人出的牌型判断是否要的起要不起
 # 下面这些是测试用例
-puke_code = {
-	'3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, '10': 10,
-	'J': 11, 'Q': 12, 'K': 13, 'A': 14, '2': 16, 'black_joker': 17, 'color_joker': 18,
-}
-puke_code_reverse = {
-	3: '3', 4: '4', 5: '5', 6: '6', 7: '7', 8: '8', 9: '9', 10: '10',
-	11: 'J', 12: 'Q', 13: 'K', 14: 'A', 16: '2', 17: 'black_joker', 18: 'color_joker',
-}
-
-puke_type_single = 0
-puke_type_pair = 1
-puke_type_three_0 = 2
-puke_type_three_1 = 3
-puke_type_three_2 = 4
-puke_type_series = 5
-puke_type_boom = 6
 
 
 def cover_you_or_not(*args):
