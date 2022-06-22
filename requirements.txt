@@ -4,7 +4,7 @@ chardet==3.0.4
 cryptography==2.8
 idna==2.8
 jwt==0.6.1
-numpy==1.17.3
+numpy==1.22.0
 pandas==0.25.3
 pycparser==2.19
 PyMySQL==0.9.3
